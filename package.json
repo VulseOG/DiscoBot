@@ -1,0 +1,20 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "A Discord bot using discord.js and OpenAI.",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.0.1",
+    "node-fetch": "^3.3.0",
+    "openai": "^4.0.0"
+  }
+}
